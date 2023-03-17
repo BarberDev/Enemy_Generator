@@ -5,7 +5,7 @@ using System.Linq;
 
 public class EnemyGenerator : MonoBehaviour
 {
-    [SerializeField] private GameObject Enemy_Prefub;
+    [SerializeField] private Enemy Enemy_Prefub;
 
     private Transform[] Spown_Positions;
 
